@@ -19,7 +19,7 @@ body {
     background-color: var(--light-gray);
 }
 
-p {
+h1, p {
     font-family: 'Outfit', sans-serif;
 }
 
@@ -76,19 +76,3 @@ p {
 
 .attribution { font-size: 11px; text-align: center; margin-top: 20px; }
 .attribution a { color: hsl(228, 45%, 44%); }
-
-/* Colors */
-/*
-- White: hsl(0, 0%, 100%)
-- Light gray: hsl(212, 45%, 89%)
-- Grayish blue: hsl(220, 15%, 55%)
-- Dark blue: hsl(218, 44%, 22%)
-*/
-/* Typography */ 
-
-    /* Body */
-/*
-    - Font size (paragraph): 15px
-
-    - Family: [Outfit](https://fonts.google.com/specimen/Outfit)
-    - Weights: 400, 700*/
