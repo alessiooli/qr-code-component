@@ -1,0 +1,79 @@
+:root {
+    /* Colors */
+    --grayish-blue:	#7b879d;
+    --dark-blue: #1f3251;
+    --light-gray: #d6e2f0;
+    --white: #ffffff;
+
+    /* Fonts */
+    --body-font-size: 15px;
+    --headline-font-weight:  700;
+}
+
+html {
+    height: 100vh; /* 100 vh means 100% of viewport, an alternative to 100% */
+}
+
+body {
+    min-height: 100vh; /* 100 vh means 100% of viewport, an alternative to 100% */
+    background-color: var(--light-gray);
+}
+
+p, 
+h1 {
+    font-family: 'Outfit', sans-serif;
+}
+
+#first-paragraph, 
+#second-paragraph {
+    text-align: center;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+#first-paragraph {
+    font-weight: 700;
+    color: var(--dark-blue);
+    font-size: 22px;
+}
+
+#second-paragraph {
+    font-size: 15px;
+    color: var(--grayish-blue);
+}
+
+#container {
+    background-color: var(--white);
+    width: 320px;
+    height: 497px;
+    border-radius: 20px;
+    box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518); 
+}
+
+#flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#text-container {
+    padding: 0px 16px 40px 16px;
+}
+
+
+#qr-code {
+    background-image: url(images/image-qr-code.png);
+    padding: 16px 16px 0 16px;
+}
+
+#qr-code img {
+    border-radius: 12px;
+    width: 100%;
+}
+
+
+
+
+.attribution { font-size: 11px; text-align: center; margin-top: 20px; }
+.attribution a { color: hsl(228, 45%, 44%); }
