@@ -19,8 +19,8 @@ body {
     background-color: var(--light-gray);
 }
 
-p, 
-h1 {
+h1, 
+p {
     font-family: 'Outfit', sans-serif;
 }
 
